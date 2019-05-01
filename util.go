@@ -11,3 +11,7 @@ func NewIntCollection()  {
 	intColl2 := intColl.NewEmpty()
 	intColl2.DD()
 }
+
+func GetName(name string)  string{
+	return name
+}
