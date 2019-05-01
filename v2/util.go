@@ -1,4 +1,4 @@
-package gomodtest_base
+package v2
 
 import (
 	"fmt"
