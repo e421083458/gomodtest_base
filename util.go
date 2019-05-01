@@ -1,6 +1,9 @@
 package gomodtest_base
 
-import "github.com/jianfengye/collection"
+import (
+	"fmt"
+	"github.com/jianfengye/collection"
+)
 
 func TestFunc()  string{
 	return "TextFunc"
@@ -8,10 +11,6 @@ func TestFunc()  string{
 
 func NewIntCollection()  {
 	intColl := collection.NewIntCollection([]int{1,2})
-	intColl2 := intColl.NewEmpty()
-	intColl2.DD()
-}
-
-func GetName(name string)  string{
-	return name
+	intColl.DD()
+	fmt.Println("v1.0.0")
 }
