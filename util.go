@@ -9,9 +9,8 @@ func TestFunc()  string{
 	return "TextFunc"
 }
 
-func NewIntCollection(name string)  {
+func NewIntCollection()  {
 	intColl := collection.NewIntCollection([]int{3,4})
 	intColl.DD()
-	fmt.Println("name=\t",name)
-	fmt.Println("v1.0.1")
+	fmt.Println("v2.0.0")
 }
